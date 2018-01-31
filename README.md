@@ -1,6 +1,14 @@
-# AsTeRICS based AT solution
+# AsTeRICS Speech Recognition and Synthesis
 
-This folder contains an AsTeRICS based solution using the [APE (AsTeRICS Packaging Environment)](https://github.com/asterics/AsTeRICS/wiki/AsTeRICS-Packaging-Environment-(APE)) template folder structure.
+This folder contains a solution for speech recognition and synthesis using the [Microsoft Server Speech Platform Runtime (Version 11)](http://www.microsoft.com/en-us/download/details.aspx?id=27225).
+You can use commands like 'Open the door' and get an answer from the recognition engine with a synthesized speech.
+
+The repository is an AsTeRICS based solution using the APE (AsTeRICS Packaging Environment) template folder structure.
+
+
+and the recognition and text to speech language files for en-US (http://www.microsoft.com/en-us/download/details.aspx?id=27225)
+
+using the [APE (AsTeRICS Packaging Environment)](https://github.com/asterics/AsTeRICS/wiki/AsTeRICS-Packaging-Environment-(APE)) template folder structure.
 
 # Prerequisites
 
@@ -8,11 +16,13 @@ You need at least
 1. [Java Runtime Environment 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html). **Some plugins only work with a 32-bit JRE.** You can have mixed installations of JREs/JDKs (32bit, 64bit). APE automatically prefers the 32-bit JDK/JRE on windows for the run targets. If you want to override this, set the property ```fx.platform.basedir``` in the file [APE.properties](APE.properties) to the path of your JDK/JRE.
 If you want to create deployment files (.exe, .deb,...), you must have installed additional dependencies like a JDK.
 2. [apache ant build framework (version >= 1.9.1)](http://ant.apache.org/bindownload.cgi) **or** an IDE for Java Developers, e.g. [Eclipse](http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/neon3) (already contains ant)
-2. [AsTeRICS 3.0](https://github.com/asterics/AsTeRICS/releases/tag/v3.0) installed **or** a snapshot of [AsTeRICS](https://github.com/asterics/AsTeRICS) cloned to a parallel folder of the project.
+3. [AsTeRICS 3.0](https://github.com/asterics/AsTeRICS/releases/tag/v3.0) installed **or** a snapshot of [AsTeRICS](https://github.com/asterics/AsTeRICS) cloned to a parallel folder of the project.
+4. [Microsoft Server Speech Platform Runtime (Version 11)](http://www.microsoft.com/en-us/download/details.aspx?id=27225) and the recognition and text to speech language files for en-US.
+5. A microphone and speaker.
 
 # Demos / Examples
 
-You can check some [demos](http://asterics.github.io/AsTeRICS/demos.html) and [asterics solution example repositories](https://github.com/asterics?utf8=%E2%9C%93&q=topic%3Aexample&type=&language=).
+You can also check some other [demos](http://asterics.github.io/AsTeRICS/demos.html) and [asterics solution example repositories](https://github.com/asterics?utf8=%E2%9C%93&q=topic%3Aexample&type=&language=).
 
 # Run project
 
