@@ -3,7 +3,7 @@
 This folder contains a solution for speech recognition and synthesis using the [Microsoft Server Speech Platform Runtime (Version 11)](http://www.microsoft.com/en-us/download/details.aspx?id=27225).
 You can use commands like 'Open the door' and get an answer from the recognition engine with a synthesized speech.
 
-The repository is an AsTeRICS based solution using the APE (AsTeRICS Packaging Environment) template folder structure.
+The repository is an AsTeRICS based solution using the [APE (AsTeRICS Packaging Environment)](https://github.com/asterics/AsTeRICS/wiki/AsTeRICS-Packaging-Environment-(APE)) template folder structure.
 
 # Prerequisites
 
