@@ -5,11 +5,6 @@ You can use commands like 'Open the door' and get an answer from the recognition
 
 The repository is an AsTeRICS based solution using the APE (AsTeRICS Packaging Environment) template folder structure.
 
-
-and the recognition and text to speech language files for en-US (http://www.microsoft.com/en-us/download/details.aspx?id=27225)
-
-using the [APE (AsTeRICS Packaging Environment)](https://github.com/asterics/AsTeRICS/wiki/AsTeRICS-Packaging-Environment-(APE)) template folder structure.
-
 # Prerequisites
 
 You need at least
